@@ -10,7 +10,7 @@ describe('Create a New Item', () => {
   });
 
   it('should have an "Add Item" button that is disabled', () => {
-    cy.get('[data-test="add-item"]').should('be.disabled');
+    cy.get('[data-test="add-item"]').should('be.disabled'); 
   });
 
   it('should enable "Add Item" when text is in the input field', () => {
